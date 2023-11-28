@@ -1,0 +1,1 @@
+def when_started1(): intake_motor_group.spin(FORWARD) intake_motor_group.spin_for(FORWARD, 220, DEGREES) arm_motor_group.spin_to_position(330, DEGREES) drivetrain.turn_for(LEFT, 110, DEGREES) drivetrain.drive_for(FORWARD, 150, MM) intake_motor_group.spin_for(REVERSE, 90, DEGREES) drivetrain.turn_to_rotation(35, DEGREES) vr_thread(when_started1)
